@@ -1,0 +1,68 @@
+{
+  "metadata": {
+    "document_type": "Land_Certificate",
+    "document_name": "Giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản khác gắn liền với đất",
+    "issuing_authority": "Cộng hòa xã hội chủ nghĩa Việt Nam",
+    "certificate_number": "BV 999451",
+    "registration_number": "CS 05494"
+  },
+  "property_owners": [
+    {
+      "owner_type": "Ông",
+      "full_name": "Nguyễn Anh Quân",
+      "date_of_birth": "1986",
+      "id_number": "B6075953",
+      "id_issued_by": "Cục QL.XNC",
+      "id_issued_date": "2012",
+      "permanent_address": "Gia Viễn, Xã Định Trung, Thành phố Vĩnh Yên, Tỉnh Vĩnh Phúc"
+    },
+    {
+      "owner_type": "Bà",
+      "full_name": "Trương Thị Phương",
+      "date_of_birth": "1987",
+      "id_number": "113287050",
+      "permanent_address": "Tổ 14, Phường Tân Hòa, Thành phố Hòa Bình, Tỉnh Hòa Bình"
+    }
+  ],
+  "land_information": {
+    "land_address": "Khu đô thị mới Dương Nội, phường Yên Nghĩa, quận Hà Đông, thành phố Hà Nội",
+    "plot_number": "CT8",
+    "map_sheet_number": null,
+    "area": "16484,0 m²",
+    "usage_purpose": "Đất ở tại đô thị",
+    "usage_form": "Sử dụng chung",
+    "usage_duration": "Lâu dài",
+    "usage_origin": "Nhà nước giao đất có thu tiền sử dụng đất"
+  },
+  "assets_attached_to_land": [
+    {
+      "asset_type": "Nhà ở",
+      "details": {
+        "house_type": "Căn hộ chung cư số 304",
+        "house_name": "CT8C - Khu đô thị mới Dương Nội",
+        "floor_area": "83,8 m²",
+        "ownership_form": "Sở hữu riêng",
+        "ownership_duration": "-/-",
+        "common_ownership_purpose": "-/-"
+      }
+    }
+  ],
+  "construction_process": "-/-",
+  "forest_land": "-/-",
+  "trees": "-/-",
+  "notes": "Số tờ, số thửa và sơ đồ sẽ điều chỉnh khi có bản đồ địa chính chính quy.",
+  "issue_date": "06 tháng 04 năm 2019",
+  "issuing_authority_details": {
+    "authority_name": "Ủy ban nhân dân thành phố Hà Nội",
+    "signatory_position": "KT.Giám đốc Sở Tài nguyên và Môi trường",
+    "signatory_name": "Nguyễn Hữu Nghĩa"
+  },
+  "land_map": {
+    "description": "Sơ đồ thửa đất, nhà ở và tài sản khác gắn liền với đất",
+    "image": "Base64_encoded_image_data"
+  },
+  "changes_after_certificate": {
+    "content": "Nội dung thay đổi và cơ sở pháp lý",
+    "confirmation": "Xác nhận của cơ quan có thẩm quyền"
+  }
+}

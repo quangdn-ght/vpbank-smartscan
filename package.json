@@ -1,0 +1,35 @@
+{
+  "name": "real-estate-analyzer",
+  "version": "1.0.0",
+  "description": "Vietnamese Land Certificate Analysis Service",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "node --watch app.js",
+    "test": "node --experimental-test-coverage test/run-tests.js",
+    "test:unit": "node test/unit.test.js",
+    "test:integration": "node test/integration.test.js",
+    "test:watch": "node --watch test/run-tests.js",
+    "lint": "eslint *.js test/*.js",
+    "format": "prettier --write *.js test/*.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.0.0",
+    "openai": "^5.8.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.0.0",
+    "prettier": "^3.0.0"
+  },
+  "keywords": [
+    "real-estate",
+    "document-analysis",
+    "ai",
+    "ocr",
+    "vietnamese",
+    "land-certificate"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}

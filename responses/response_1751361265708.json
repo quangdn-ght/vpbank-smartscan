@@ -1,0 +1,58 @@
+{
+  "success": true,
+  "timestamp": "2025-07-01T09:14:25.708Z",
+  "model": "qwen-vl-max",
+  "usage": {
+    "prompt_tokens": 1499,
+    "completion_tokens": 998,
+    "total_tokens": 2497
+  },
+  "response": "Dưới đây là kết quả phân tích và trích xuất thông tin từ ảnh chụp \"sổ đỏ\" theo yêu cầu, được tổng hợp và xuất dưới dạng đối tượng JSON:\n\n```json\n{\n  \"document_type\": \"Giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản khác gắn liền với đất\",\n  \"metadata\": {\n    \"issued_by\": \"Ủy ban nhân dân thành phố Hà Nội\",\n    \"issue_date\": \"20/04/2014\",\n    \"certificate_number\": \"CS 05494\"\n  },\n  \"owner_information\": {\n    \"full_name\": \"Nguyễn Anh Quân\",\n    \"date_of_birth\": \"1986\",\n    \"identity_card_number\": \"H6075951\",\n    \"identity_card_issued_by\": \"Cục QL.XNC, năm cấp: 2012\",\n    \"identity_card_issued_date\": \"Giá Viên, Xã Định Trung, Thành phố Vinh Yên, Tỉnh Vĩnh Phúc\",\n    \"spouse_information\": {\n      \"full_name\": \"Đà Trương Thị Phương\",\n      \"date_of_birth\": \"1987\",\n      \"identity_card_number\": \"113287050\",\n      \"identity_card_issued_by\": \"Tổ 14, Phường Tân Hòa, Thành phố Hòa Bình, Tỉnh Hòa Bình\"\n    }\n  },\n  \"land_parcel_information\": {\n    \"land_parcel_address\": \"Khu đô thị mới Dương Nội, phường Yên Nghĩa, quận Hà Đông, thành phố Hà Nội\",\n    \"parcel_number\": \"CT8\",\n    \"sheet_map_number\": \"CT8\",\n    \"area\": \"16484,0m²\",\n    \"usage_purpose\": \"Sử dụng chung\",\n    \"usage_form\": \"Đất (riêng, chung)\",\n    \"usage_duration\": \"Lâu dài\",\n    \"origin_of_usage\": \"Nhà nước giao đất có thu tiền sử dụng đất\"\n  },\n  \"house_and_attached_assets\": {\n    \"house_count\": \"Căn hộ chung cư số 304\",\n    \"house_area\": \"83,8m²\",\n    \"additional_assets\": \"Không có tài sản khác gắn liền với đất\"\n  },\n  \"additional_information\": {\n    \"construction_process\": \"Không\",\n    \"production_year\": \"Không\",\n    \"notes\": \"Số tờ, số thửa và số đó sẽ điều chỉnh khi có bản đồ địa chính chính quy.\"\n  }\n}\n```\n\n### Giải thích các trường thông tin:\n\n1. **`document_type`**: Loại tài liệu được xác định là \"Giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản khác gắn liền với đất\".\n\n2. **`metadata`**: Thông tin metadata bao gồm cơ quan cấp, ngày cấp và số hiệu sổ đỏ.\n   - `issued_by`: Ủy ban nhân dân thành phố Hà Nội.\n   - `issue_date`: Ngày 20 tháng 04 năm 2014.\n   - `certificate_number`: Số hiệu sổ đỏ là CS 05494.\n\n3. **`owner_information`**: Thông tin về chủ sở hữu.\n   - `full_name`, `date_of_birth`, `identity_card_number`, `identity_card_issued_by`, `identity_card_issued_date`: Thông tin cá nhân của chủ sở hữu.\n   - `spouse_information`: Thông tin về vợ/chồng (nếu có).\n\n4. **`land_parcel_information`**: Thông tin về thửa đất.\n   - `land_parcel_address`: Địa chỉ thửa đất.\n   - `parcel_number`, `sheet_map_number`: Số thửa và số tờ bản đồ.\n   - `area`: Diện tích thửa đất.\n   - `usage_purpose`, `usage_form`, `usage_duration`, `origin_of_usage`: Mục đích sử dụng, hình thức sử dụng, thời hạn sử dụng và nguồn gốc sử dụng.\n\n5. **`house_and_attached_assets`**: Thông tin về nhà ở và tài sản khác gắn liền với đất.\n   - `house_count`, `house_area`: Số lượng và diện tích căn hộ.\n   - `additional_assets`: Tài sản khác (nếu có).\n\n6. **`additional_information`**: Thông tin bổ sung.\n   - `construction_process`, `production_year`: Quá trình xây dựng và năm sản xuất (nếu có).\n   - `notes`: Ghi chú thêm.\n\nĐối tượng JSON này có cấu trúc rõ ràng, dễ đọc và dễ dàng tích hợp vào hệ thống quản lý tài sản ngân hàng hoặc phần mềm CRM.",
+  "metadata": {
+    "finishReason": "stop",
+    "totalTokens": 2497,
+    "promptTokens": 1499,
+    "completionTokens": 998
+  },
+  "extractedData": {
+    "document_type": "Giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản khác gắn liền với đất",
+    "metadata": {
+      "issued_by": "Ủy ban nhân dân thành phố Hà Nội",
+      "issue_date": "20/04/2014",
+      "certificate_number": "CS 05494"
+    },
+    "owner_information": {
+      "full_name": "Nguyễn Anh Quân",
+      "date_of_birth": "1986",
+      "identity_card_number": "H6075951",
+      "identity_card_issued_by": "Cục QL.XNC, năm cấp: 2012",
+      "identity_card_issued_date": "Giá Viên, Xã Định Trung, Thành phố Vinh Yên, Tỉnh Vĩnh Phúc",
+      "spouse_information": {
+        "full_name": "Đà Trương Thị Phương",
+        "date_of_birth": "1987",
+        "identity_card_number": "113287050",
+        "identity_card_issued_by": "Tổ 14, Phường Tân Hòa, Thành phố Hòa Bình, Tỉnh Hòa Bình"
+      }
+    },
+    "land_parcel_information": {
+      "land_parcel_address": "Khu đô thị mới Dương Nội, phường Yên Nghĩa, quận Hà Đông, thành phố Hà Nội",
+      "parcel_number": "CT8",
+      "sheet_map_number": "CT8",
+      "area": "16484,0m²",
+      "usage_purpose": "Sử dụng chung",
+      "usage_form": "Đất (riêng, chung)",
+      "usage_duration": "Lâu dài",
+      "origin_of_usage": "Nhà nước giao đất có thu tiền sử dụng đất"
+    },
+    "house_and_attached_assets": {
+      "house_count": "Căn hộ chung cư số 304",
+      "house_area": "83,8m²",
+      "additional_assets": "Không có tài sản khác gắn liền với đất"
+    },
+    "additional_information": {
+      "construction_process": "Không",
+      "production_year": "Không",
+      "notes": "Số tờ, số thửa và số đó sẽ điều chỉnh khi có bản đồ địa chính chính quy."
+    }
+  }
+}
